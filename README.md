@@ -1,2 +1,2 @@
-# python-planeFight
-python 飞机大战
+# alien_invasion
+python编程：入门到实践 外星人入侵项目
