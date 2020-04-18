@@ -42,7 +42,7 @@ def run_game():
             ship.update()
             # 更新子弹位置并删除已消失的子弹
             gf.update_bullets(ai_settings, screen, stats, sb, ship, aliens, bullets)
-            gf.update_aliens(ai_settings, stats, screen, ship, aliens, bullets)
+            gf.update_aliens(ai_settings, screen, stats, sb, ship, aliens, bullets)
 
         # 每次循环都会重新绘制屏幕，所以每次都把背景色设置上
         gf.update_screen(ai_settings, screen, stats, sb, ship, aliens, bullets, play_button)
